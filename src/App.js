@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BugerBuilder/BurgerBuilder';
 
 //Idea for Layout is that is not self-closing because I can wrap other elems in it
 
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-          <p>Hi burger</p>
+          <BurgerBuilder/>
         </Layout>
       </div>
     );
