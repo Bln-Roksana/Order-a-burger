@@ -13,7 +13,7 @@ const burger = (props) => {
             return prevVal.concat(currVal)
         },[])
 
-        console.log(transIngredients);
+        //console.log(transIngredients);
     if (transIngredients.length===0){
         transIngredients=<p>Please start addinng ingredients!</p>
     }
